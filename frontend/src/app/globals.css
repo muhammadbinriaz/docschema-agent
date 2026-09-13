@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  background: #0b0c0e;
+  color: #e8e6e3;
+}
+a {
+  color: #f0b429;
+  text-decoration: none;
+}
+.wrap {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 28px 20px 80px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 36px;
+}
+.brand {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  font-size: 1.15rem;
+}
+.brand span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: #f0b429;
+  margin-right: 8px;
+}
+.hero h1 {
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  letter-spacing: -0.03em;
+  margin: 0 0 12px;
+}
+.hero p {
+  opacity: 0.7;
+  max-width: 38rem;
+  line-height: 1.55;
+}
+.panel {
+  margin-top: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  padding: 20px;
+  background: #12141a;
+}
+.panel h2 {
+  margin: 0 0 8px;
+  font-size: 1.05rem;
+}
+.muted {
+  opacity: 0.55;
+  font-size: 0.9rem;
+  margin-bottom: 14px;
+}
+textarea {
+  width: 100%;
+  min-height: 180px;
+  background: #0b0c0e;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 8px;
+  color: inherit;
+  padding: 12px;
+  font-family: ui-monospace, Consolas, monospace;
+  font-size: 13px;
+  resize: vertical;
+}
+.row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+.btn {
+  border: 0;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-primary {
+  background: #f0b429;
+  color: #111;
+}
+.btn-ghost {
+  background: transparent;
+  color: #e8e6e3;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.err {
+  color: #ff7b72;
+  margin-top: 10px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+  font-size: 14px;
+}
+th,
+td {
+  text-align: left;
+  padding: 10px 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  vertical-align: top;
+}
+th {
+  opacity: 0.55;
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+input.field {
+  width: 100%;
+  background: #0b0c0e;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 6px;
+  color: inherit;
+  padding: 8px 10px;
+}
+.chip {
+  display: inline-block;
+  border-radius: 999px;
+  padding: 2px 8px;
+  font-size: 11px;
+  font-weight: 600;
+}
+.chip-ok {
+  background: rgba(63, 185, 80, 0.15);
+  color: #3fb950;
+}
+.chip-warn {
+  background: rgba(240, 180, 41, 0.15);
+  color: #f0b429;
+}
+.chip-edit {
+  background: rgba(88, 166, 255, 0.15);
+  color: #58a6ff;
+}
+.status {
+  opacity: 0.7;
+  font-size: 0.9rem;
+}

@@ -1,0 +1,22 @@
+INVOICE
+From: Northstar Billing
+Vendor email: billing@northstar.example
+Invoice # INV-2026-0842
+Date: 2026-08-15
+Due date: 2026-09-14
+
+Bill to: Maya Chen
+Customer email: maya.chen@orbitly.io
+Company: Orbitly Inc.
+
+Line items:
+- Northstar Annual Plan                    $249.00
+- Onboarding workshop (waived)               $0.00
+
+Subtotal: $249.00
+Tax: $0.00
+Total due: $249.00
+Currency: USD
+
+Payment terms: Net 30. Refunds follow Northstar Refund Policy (30-day window).
+Notes: Order reference #4821.
